@@ -16,4 +16,4 @@ You can limit the length of each sequence line by also specifying the `--wrap` a
     ./parseFASTA.py firstInput.fa secondInput.fa --output out.fa --wrap 90
 
 ## Samples
-Sample input files can be found at `in1.fa` and `in2.fa`.
+Sample input files can be found at `data/in1.fa` and `data/in2.fa`.
