@@ -14,3 +14,6 @@ You can (aggregate from multiple files and) save the sequences to an output file
 You can limit the length of each sequence line by also specifying the `--wrap` argument (default is 80), e.g.:
 
     ./parseFASTA.py firstInput.fa secondInput.fa --output out.fa --wrap 90
+
+## Samples
+Sample input files can be found at `in1.fa` and `in2.fa`.
