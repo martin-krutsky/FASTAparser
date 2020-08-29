@@ -79,5 +79,5 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, help='path to an output file')  # optional argument
     parser.add_argument('--wrap', type=int, default=80, help='max length of a sequence line')  # optional argument
 
-    args = parser.parse_args()  # parse the args as specified above to a Namespace object
-    main(args)
+    arguments = parser.parse_args()  # parse the args as specified above to a Namespace object
+    main(arguments)
